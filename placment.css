@@ -1,0 +1,44 @@
+
+
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+
+    /* justify-items: center;
+    align-items: center; */
+
+    place-items: center center;
+
+    /*
+    
+    justify-items: start;
+    justify-items: end;
+    justify-items: stretch;
+    justify-items: center;
+   
+    
+    align-items: start => 300px
+    align-items: end 
+    align-items: center
+    align-items: stretch;
+
+    justify-self "child"
+    align-self "child"
+    place-self "child"
+
+    place-items: <align-items> / <justify-items>
+    place-self: <align-self> / <justify-self> "child"
+
+    
+    */
+}
+
+.number1{
+   /* justify-self: start;
+   align-self: start; */
+
+   place-self: start start;
+} 

@@ -1,0 +1,44 @@
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+
+    grid-template-areas: 
+        "header header header header header header "
+        "side side main main main main "
+        "side side main main main main "
+        "footer footer footer footer footer . "
+    ;
+
+   
+
+
+    /*
+
+     grid-template-areas: 
+            "side side side header header header"
+            "side side side main main main"
+            "side side side  main main main"
+
+
+    grid-template-areas: 
+    
+
+    
+    */
+}
+
+.number1 {
+    grid-area: side;
+}
+.number2 {
+    grid-area: header;
+}
+.number3 {
+    grid-area: main;
+}
+.number4 {
+    grid-area: footer;
+}
